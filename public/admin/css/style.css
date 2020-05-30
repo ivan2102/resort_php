@@ -1,0 +1,52 @@
+#page-wrapper {
+    background-color: #F1F1F1 !important;
+}
+
+.product_image {
+    width: 200px !important;
+    height: 100px !important;
+}
+
+#admin_sidebar .form-group {
+    background-color: #fff;
+    padding: 8px;
+}
+
+#admin_sidebar .form-group hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#admin_sidebar .btn {
+    width: 49%;
+}
+
+
+/************************STYLED THUMBNAILS SLIDES IN ADMIN*****************************/
+
+.slide_image {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+/****************************LOADER*****************************/
+
+#load-screen {
+    background: url(../../../resources/uploads/header-back.png);
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    width: 100%;
+    height: 1600px;
+}
+
+#loading {
+    width: 500px;
+    height: 500px;
+    margin: 10% auto;
+    background: url(../../../resources/uploads/loader.gif);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
